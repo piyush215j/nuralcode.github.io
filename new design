@@ -1,0 +1,11 @@
+.contactus1 {
+  position: absolute;
+right: 2%;
+  top: 550%;
+  width: 4000%;
+  height: 5rem;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 40px;
+  transition: all .3s;
+
+}

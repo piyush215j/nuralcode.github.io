@@ -1,0 +1,642 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*--------------------- Navbar.---------------------------- */
+.navbar {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.logo {
+  width: 9.37rem;
+  cursor: pointer;
+}
+
+.navbar ul li {
+  position: relative;
+  right: 5rem;
+  left: px;
+  list-style: none;
+  display: inline-block;
+  margin: .938rem 0px 0px 3.125rem;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+li::after {
+  content: '';
+  height: 0.188rem;
+  width: 0%;
+  background-color: #3700ff;
+  display: block;
+  transition: .3s ease-in-out;
+}
+
+li:hover:after {
+  content: '';
+  height: 0.188rem;
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+  display: block;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+#button {
+  position: absolute;
+  right: 0.625rem;
+  top: 1.563rem;
+  padding: 0.25rem 0.625rem 0.25rem 0.625;
+  background-color: rgb(243, 1, 1);
+  border-radius: 1.25rem;
+  border-color: white;
+  transition: transform .4s;
+  border-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 0px;
+  color: aliceblue;
+  font-size: 1.125rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+#button:hover {
+  transform: scale(1.1);
+}
+
+.banner {
+  width: 100%;
+  height: 135vh;
+  background-image: url(img/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Content */
+h4 {
+  top: 50%;
+  position: absolute;
+  right: 50%;
+  left: 8%;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 170%;
+}
+
+h2 {
+  top: 60%;
+  position: absolute;
+  right: 50%;
+  left: 8%;
+  margin: -0.063re;
+  margin-top: -1.875rem;
+  margin-bottom: auto;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 600%;
+}
+
+#namste {
+  font-size: 103%;
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
+  color: rgb(255, 0, 0)246, 255;
+}
+#namaste:hover{
+  display: none;
+}
+
+/*.animation {
+  background-color: blue;
+  position: relative;
+  animation-name: nuralcode;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+}
+
+@keyframes nuralcode {
+  from {
+    width: 200px;
+  }
+
+  to {
+    width: 400px;
+
+  }
+} */
+
+span {
+  color: rgb(239, 11, 11);
+}
+
+/*--------------------- Services ---------------------------- */
+
+.back2 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 120vh;
+}
+
+/* .image{
+  background-image: url(img/image2.png);
+  width: 100vh;
+  height: 100%;
+} */
+#head1 {
+  margin: 0px 0px 0px 0px;
+  padding: 3.75rem 0.12rem 0.063rem 0.12rem;
+  position: relative;
+  top: 120%;
+  color: aliceblue;
+  font-size: 400%;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+/* -----card 1 -------*/
+.cardfirst {
+  position: absolute;
+  top: 1.9rem;
+  right: 0.67rem;
+  width: 18.75rem;
+  height: 19.5625rem;
+  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+  border-radius: 1.25rem;
+  transition: all .3s;
+}
+
+.cardsecond {
+  width: 18.74rem;
+  height: 19.5625rem;
+  background-color: #000000;
+  border-radius: 1.1875rem;
+  transition: all .2s;
+}
+
+
+.cardsecond {
+  transform: scale(0.98);
+  border-radius: 1.25rem;
+}
+
+.cardfirst:hover {
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  box-shadow: 0rem 0rem 1.875rem 0.0625rem rgb(255, 0, 0);
+}
+
+/* ISSUE */
+
+/* -----card 2------- */
+.subcardfirst {
+  position: absolute;
+  right: 0.37rem;
+  top: 1.9rem;
+  width: 18.75rem;
+  height: 19.5625rem;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 1.25rem;
+  transition: all .3s;
+}
+
+.subcardsecond {
+  width: 18.75rem;
+  height: 19.5625rem;
+  background-color: #000000;
+  border-radius: 1.1875rem;
+  transition: all .2s;
+}
+
+.subcardsecond {
+  transform: scale(0.98);
+  border-radius: 1.25rem;
+}
+
+.subcardfirst:hover {
+  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+  box-shadow: 0rem 0rem 1.875rem 0.0625rem rgb(255, 0, 0);
+}
+
+
+/* -----card 3-------*/
+.card1 {
+  position: absolute;
+  top: 1.9rem;
+  right: 0.08rem;
+  width: 18.75rem;
+  height: 19.5625rem;
+  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+  border-radius: 1.25rem;
+  transition: all .3s;
+}
+
+.card2 {
+  width: 18.75rem;
+  height: 19.5625;
+  background-color: #000000;
+  border-radius: 1.1875rem;
+  transition: all .2s;
+}
+
+.card2 {
+  transform: scale(0.98);
+  border-radius: 1.25rem;
+}
+
+.card1:hover {
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  box-shadow: 0px 0px 1.875rem 0.0625rem rgb(255, 0, 0);
+}
+
+/* -----card 4-------*/
+
+/* .subcard1 {
+  position: absolute;
+  top: 190%;
+  left: 75%;
+  width: 250px;
+  height: 313px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.subcard2 {
+  width: 250px;
+  height: 313px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.subcard2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.subcard1:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+} */
+
+/* ISSUE 1*/
+
+/*--------------------- Github ---------------------------- */
+/* IISUE 2 */
+.back3 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 120vh;
+}
+
+.backgroundbuttoncard1 {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 275%;
+  width: 39rem;
+  height: 27rem;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+
+}
+
+.backgroundbuttoncard2 {
+  width: 39rem;
+  height: 27rem;
+  background-image: url(img/github.png);
+  background-size: 39rem 27rem;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.backgroundbuttoncard2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.backgroundbuttoncard1:hover {
+  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+/* IISUE 2 */
+
+.contentlorem1 {
+  position: absolute;
+  top: 275%;
+  left: 6%;
+  color: aliceblue;
+  font-size: 370%;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding-right: 50%;
+  padding-bottom: 50%;
+}
+
+/* ----------about-------------- */
+
+.banner2 {
+  background-image: url(img/banner3.png) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 125vh;
+}
+
+/* .banner {
+  width: 100%;
+  height: 135vh;
+  background-image: url(img/bg1.png);
+  background-position: center;
+  background-size: cover;
+} */ 
+/* for-demontration */
+
+.contentlorem2 {
+  position: absolute;
+  top:465%;
+  right: 8%;
+  color: aliceblue;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding-left: 49%;
+  text-align: right;
+}
+
+/* -----card 3-------*/
+.piyushdwivedicard1 {
+  position: absolute;
+  top: 400%;
+  right: 35%;
+  width: 300px;
+  height: 350px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.piyushdwivedicard2 {
+  width: 300px;
+  height: 350px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.piyushdwivedicard2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.piyushdwivedicard1:hover {
+  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+/* -----card 4-------*/
+
+.paraskamdarcard1 {
+  position: absolute;
+  top: 400%;
+  right: 7%;
+  width: 300px;
+  height: 350px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.paraskamdarcard2 {
+  width: 300px;
+  height: 350px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.paraskamdarcard2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.paraskamdarcard1:hover {
+  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+/*--------------------- caontact us ---------------------------- */
+
+.back5 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 120vh;
+}
+
+
+.contactus1 {
+  position: absolute;
+  left: 8%;
+  top: 525%;
+  width: 43rem;
+  height: 27rem;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+
+}
+
+.contactus2 {
+  width: 43rem;
+  height: 27rem;
+  background-color: #000000;
+  background-size: 39rem 27rem;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.contactus2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.contactus1:hover {
+  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+.contentlorem3 {
+  position: absolute;
+  top:550%;
+  right: 7%;
+  color: aliceblue;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding-left: 65%;
+
+}
+
+/*--------------------- footer ---------------------------- */
+
+.background{
+  background-color: #000000;
+  width: 100%;
+  height: 80vh;
+}
+
+/* svg{
+  position: absolute;
+  top: 635%;
+  height: 60vh;
+  width: 100%;
+} */
+/* 
+.footer1 {
+  position: absolute;
+  left: 1px;
+  top: 640%;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+  transition: all .3s;
+}
+
+.footer2 {
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  transition: all .2s;
+}
+
+.footer2 {
+transform: scale(0 , 0);
+}
+
+.footer1:hover {
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+} */
+
+/*--------------------- media for 15.6 inch ---------------------------- */
+/* 
+#all{
+  background-color: #000000;
+  width: 100%;
+  height: 80vh;
+}
+#all{
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 80vh;
+  background: #334;
+}
+footer{
+  position:relative;
+  width: 100%;
+  background: rgb(255, 0, 0);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .social-icon,
+footer .menu
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+footer .social-icon li,
+footer .menu li
+{
+  list-style: none;
+}
+
+footer .social-icon li a
+{
+  font-size: 2em;
+  color: aliceblue;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+footer .social-icon li a:hover{
+  transform:scale3d(10s);
+
+}
+footer .menu li a
+{
+  font-size: 1.2em;
+  color: aliceblue;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.75;
+}
+footer .menu li a:hover{
+  opacity: 1;
+}
+footer p{
+  color: aliceblue;
+  text-align: center;
+  margin-top:15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+} */
+
+
+
+/* media */
+@media only screen and (min-width:800px)and(max-width:1280){
+
+  /*--------------------- Navbar.---------------------------- */
+  
+  .navbar {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.navbar ul li {
+  position: relative;
+  right: 80px;
+  left: 0px;
+  color: #ff0000;
+  list-style: none;
+  display: inline-block;
+  margin: 15px 0px 0px 50px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+
+}
