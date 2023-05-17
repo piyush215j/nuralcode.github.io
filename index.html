@@ -5,21 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>preview</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- linking css -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/Services.css">
+  <link rel="stylesheet" href="style/about.css">
+  <link rel="stylesheet" href="style/github.css">
+  <link rel="stylesheet" href="style/contactus.css">
+  <link rel="stylesheet" href="style/footer.css">
+  <link rel="stylesheet" href="style/feature1.css">
+  <link rel="stylesheet" href="style/feature2.css">
+  <link rel="stylesheet" href="style/feature3.css">
   <script src="https://kit.fontawesome.com/1910cb1e04.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!---   ----Navbar page----    --->
   <div class="bg-01">
     <div class="nav-bar">
-      <img src="/img/logo.png" alt="logo" class="navbar-logo">
+      <img src="img/logo.png" alt="logo" class="navbar-logo">
       <ul>
         <li class="navbar-list"><a herf="#home">Home</li>
           <li class="navbar-list"><a herf="#services">services</li>
             <li class="navbar-list"><a herf="#github">Github</li>
               <li class="navbar-list"><a herf="#about">About</li>
                 <li class="navbar-list"><a herf="#contact-us">Contact Us</li>
-                  <button id="navbar-button" href="login&signup.html"> Join us</button>
+                  <!-- <button id="navbar-button" href="https://forms.gle/4iy8AMBKntdYzR5i6">Join us</button> -->
+                  <button id="navbar-button" href="https://forms.gle/4iy8AMBKntdYzR5i6" onclick="window.location.href = this.getAttribute('href');"> Join us</button>
                 </ul>
               </div>
               <!---   ----SECTION 1 HOME----    --->
@@ -87,8 +97,8 @@
       </div>
 
       <div>
-        <i class="fa-brands fa-github" style="color: #e61e1e;"></i>
-        <button id="myButton" href="" onclick="window.location.href = this.getAttribute('href');">Click me</button>
+        <img src="githubred.png" alt="img" class="github_img">
+        <button class="github_button" href="" onclick="window.location.href = this.getAttribute('href');">GitHub</button>
       </div>
     </div>
   </section>
@@ -180,7 +190,7 @@
 
 
 
-    <!-- footer -->
+
 
 </body>
 </html>
