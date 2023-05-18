@@ -263,14 +263,34 @@ margin-left: 6%;
   height: 120vh;
 }
 
-.fa-brands{
-  height: 40px;
-  width: 10px;
+.github_image{
+  width: 45%;
+  height: 90%;
   position: absolute;
-  top: 300%;
   left: 50%;
+  top: 260vh;
+}
+#mybButton {
+  position: absolute;
+  right: 0.625rem;
+  top: 1.563rem;
+  height: 35px;
+  width: 80px;
+  margin-right: 100px;
+  padding: 0rem;
+  background-color: rgb(243, 1, 1);
+  border-radius: 1.25rem;
+  border: none;
+  transition: transform 0.4s;
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+  font-size: 1.125em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
 }
 
+#mybButton:hover {
+  transform: scale(1.1);
+}
  .backgroundbuttoncard1 {
   position: absolute;
   left: 50%;
