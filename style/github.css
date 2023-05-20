@@ -9,14 +9,14 @@
   .github_image{
     width: 45%;
     height: 90%;
-    position: absolute;
+    /* position: absolute;
     left: 50%;
-    top: 260vh;
+    top: 260vh; */
   }
   #mybButton {
-    position: absolute;
+    /* position: absolute;
     right: 0.625rem;
-    top: 1.563rem;
+    top: 1.563rem; */
     height: 35px;
     width: 80px;
     margin-right: 100px;
@@ -35,10 +35,10 @@
     transform: scale(1.1);
   }
    .backgroundbuttoncard1 {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     right: 50%;
-    top: 275%;
+    top: 275%; */
     width: 39rem;
     height: 27rem;
     background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
@@ -69,9 +69,9 @@
   /* IISUE 2 */
   
   .contentlorem1 {
-    position: absolute;
+    /* position: absolute;
     top: 275%;
-    left: 6%;
+    left: 6%; */
     color: aliceblue;
     font-size: 370%;
     font-weight: bold;

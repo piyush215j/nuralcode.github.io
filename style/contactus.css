@@ -7,9 +7,9 @@
   }
   
   .contentlorem3 {
-    position: absolute;
+    /* position: absolute;
     top:520%;
-    left: 6%;
+    left: 6%; */
     padding-right: 50%;
     color: aliceblue;
     font-size: 370%;
@@ -22,9 +22,9 @@
   
   /* email or submit button css  */
   .input {
-    position: absolute;
+    /* position: absolute;
     right: 2%;
-    top: 550%;
+    top: 550%; */
     color: #ffffff;
     size: 90px;
     border-radius: 60px;
@@ -46,9 +46,9 @@
    }
   
    .buttoncard1 {
-    position: absolute;
+    /* position: absolute;
     right: 3%;
-    top: 551%;
+    top: 551%; */
     width: 165px;
     height: 100px;
     background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
@@ -57,10 +57,10 @@
     
   }
    .button{
-    position: absolute;
-    right: 3%;
+    /* position: absolute;
+    right: 3%; */
     border-style: none;
-    top: 551%;
+    /* top: 551%; */
     text-transform: uppercase;
     border-radius: 60px;
     padding: 0px;
